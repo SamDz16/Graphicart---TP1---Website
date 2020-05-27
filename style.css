@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+/*Global*/
+
+ul{
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar .links{
+    margin-left: 100px;
+    width: 50%;
+}
+
+#navbar .links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar .links ul li{
+    flex: 1;
+}
+
+#navbar .links a{
+    display: inline-block;
+    color: #ccc;
+    padding: 25px 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#navbar .links .active{
+    color: #000;
+}
+
+#navbar .social-media{
+    padding: 25px 30px 0 0;
+}
+
+#navbar .social-media img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+#main-content .articles{
+    width: 80%;
+}
+
+#main-content .articles .article{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: none;
+}
+
+#main-content .articles .article img{
+    width: 230px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#main-content .articles .article div{
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+#main-content .articles .article div h1{
+    font-family: "Times New Roman", serif;
+}
+
+#main-content .articles .article .para{
+    color: rgb(175, 172, 172);
+}
+
+#main-content .aside{
+    width: 20%;
+    background-color: #FBFBFB;
+    padding: 0 30px;
+}
+
+#main-content .aside .category h2{
+    margin: 25px 0;
+}
+
+#main-content .aside .category a{
+    margin-bottom: 15px;
+    color: rgb(175, 172, 172);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bar{
+    margin-top: 30px;
+    background-color: #ccc;
+    height: 1px;
+}
